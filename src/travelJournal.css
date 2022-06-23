@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  background-color: #f55a5a;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+a {
+  color: #918e9b;
+  text-transform: none;
+}
+
+p {
+  margin-top: 0;
+  max-width: 100vh;
+}
+
+hr {
+  opacity: 0.1;
+  max-width: 100vh;
+}
+
+.nav--logo {
+  height: 30px;
+}
+
+.nav--title {
+  font-size: 15px;
+  color: #fff;
+  padding-left: 7px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--image__img {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card--details {
+  padding-left: 18px;
+  padding-top: 15px;
+}
+
+.location--details {
+  text-transform: uppercase;
+  margin-right: 7px;
+}
+
+.time {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.locationSign--Image {
+  width: 10px;
+  height: 15px;
+}
